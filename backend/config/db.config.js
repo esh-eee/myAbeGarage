@@ -10,6 +10,7 @@ const dbConfig = {
   host: process.env.DB_HOST,
   database: process.env.DB_NAME,
   namedPlaceholders: true,
+  
 };
 // Create the connection pool
 const pool = mysql.createPool(dbConfig);
